@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">NinjaTrader cross-instrument execution architecture</title>
+<desc id="desc">Sanitized flow from analysis chart through mapping and risk sizing to order lifecycle, protection automation and terminal closeout.</desc>
+<style>text{font-family:Arial,sans-serif;fill:#eaf2ff}.box{fill:#0b1730;stroke:#55a7ff;stroke-width:2}.sub{fill:#9db6d7;font-size:16px}.head{font-size:19px;font-weight:700}.arrow{stroke:#55a7ff;stroke-width:3;marker-end:url(#a)}</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#55a7ff"/></marker></defs>
+<rect width="1200" height="420" fill="#050914"/>
+<g transform="translate(35 125)"><rect class="box" rx="18" width="180" height="120"/><text class="head" x="90" y="44" text-anchor="middle">Analysis chart</text><text class="sub" x="90" y="76" text-anchor="middle">Instrument + setup</text></g>
+<g transform="translate(255 125)"><rect class="box" rx="18" width="190" height="120"/><text class="head" x="95" y="40" text-anchor="middle">Mapping + risk</text><text class="sub" x="95" y="72" text-anchor="middle">Execution contract</text><text class="sub" x="95" y="96" text-anchor="middle">Dollar-risk quantity</text></g>
+<g transform="translate(485 125)"><rect class="box" rx="18" width="190" height="120"/><text class="head" x="95" y="40" text-anchor="middle">Review + Entry</text><text class="sub" x="95" y="72" text-anchor="middle">Account gate</text><text class="sub" x="95" y="96" text-anchor="middle">Working order</text></g>
+<g transform="translate(715 125)"><rect class="box" rx="18" width="190" height="120"/><text class="head" x="95" y="40" text-anchor="middle">Filled protection</text><text class="sub" x="95" y="72" text-anchor="middle">Stop + optional Target</text><text class="sub" x="95" y="96" text-anchor="middle">Native OCO</text></g>
+<g transform="translate(945 125)"><rect class="box" rx="18" width="220" height="120"/><text class="head" x="110" y="36" text-anchor="middle">Manage + close</text><text class="sub" x="110" y="68" text-anchor="middle">BE / Trail / manual</text><text class="sub" x="110" y="92" text-anchor="middle">Terminal flatten cleanup</text></g>
+<path class="arrow" d="M215 185 H250"/><path class="arrow" d="M445 185 H480"/><path class="arrow" d="M675 185 H710"/><path class="arrow" d="M905 185 H940"/>
+<text x="600" y="70" text-anchor="middle" font-family="Arial,sans-serif" fill="#ffffff" font-size="28" font-weight="700">OSYSTIC — Sanitized execution architecture</text>
+<text x="600" y="340" text-anchor="middle" class="sub">Public capability diagram. Confidential implementation, account details and provider-specific internals are excluded.</text>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "publisher": "OSYSTIC",
+  "artifact_type": "sanitized-engineering-case-study",
+  "project_key": "ninjatrader-cross-trade-risk-automation",
+  "status": "published",
+  "source_code_included": false,
+  "client_identity_included": false,
+  "private_evidence_included": false,
+  "account_identifiers_included": false,
+  "commercial_information_included": false,
+  "independent_git_history": true,
+  "founder_approval": {
+    "approved": true,
+    "date": "2026-10-21",
+    "approver": "Shawaiz Arif"
+  },
+  "website": {
+    "eligible": true,
+    "status": "ready-for-review",
+    "canonical_slug": "ninjatrader-cross-trade-risk-automation"
+  }
+}

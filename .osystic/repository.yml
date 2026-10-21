@@ -1,0 +1,95 @@
+schema_version: 2
+governance_standard_version: "2.2"
+repository_name: NinjaTrader-Cross-Trade-Risk-Automation-Case-Study
+project_name: NinjaTrader Cross-Trade Risk Automation
+repository_class: public-showcase
+visibility: public
+lifecycle: maintenance
+business_owner: Shawaiz Arif
+technical_owner: Shawaiz Arif
+technical_owner_github: osystic
+owner_team: engineering
+data_classification: public-sanitized
+client_identity_public: false
+
+project:
+  key: ninjatrader-cross-trade-risk-automation
+  name: NinjaTrader Cross-Trade Risk Automation
+  status: completed
+  platform: NinjaTrader 8
+
+portfolio:
+  eligible: true
+  status: approved-public-showcase
+  evidence_status: evidence-verified
+  sanitization_status: approved
+  founder_approval: true
+  approval_date: 2026-10-21
+  approval_reference: docs/publication-record.md
+  withdrawal_owner: Shawaiz Arif
+
+website:
+  eligible: true
+  status: ready-for-review
+  canonical_slug: ninjatrader-cross-trade-risk-automation
+  auto_sync: true
+
+publication:
+  client_identity_public: false
+  confidential_content_removed: true
+  credentials_included: false
+  private_infrastructure_included: false
+  account_identifiers_included: false
+  contract_or_payment_details_included: false
+  private_conversations_included: false
+  client_source_included: false
+  private_screenshots_included: false
+  independent_git_history: true
+
+source:
+  type: sanitized-client-delivery
+  source_code_included: false
+  confidential_source_linked: false
+  proprietary_assets_included: false
+
+delivery:
+  status: complete
+  completion_date: 2026-10-21
+  default_branch: main
+  ci_required: true
+  production_environment: false
+  deployable_trading_system: false
+
+claims:
+  final_accepted_version: v0.4.25
+  primary_cross_instrument_families_validated: 2
+  controlled_live_lifecycle: passed
+  final_flat_closeout: passed
+  master_follower_copier: deferred
+  profitability_claim: none
+
+handover:
+  required: true
+  status: complete
+  runbook: docs/runbook.md
+
+retention:
+  legal_hold: false
+  review_date: 2027-04-21
+  withdrawal_process: docs/runbook.md
+
+public_showcase:
+  source_code_allowed: false
+  raw_private_evidence_allowed: false
+  client_identity_allowed: false
+  history_independent: true
+  pace_framework: complete
+
+controls:
+  secrets_in_git_allowed: false
+  public_publication_allowed: true
+
+platform_exceptions:
+  account_model: github-user
+  organization_controls_applicable: false
+  exception_record: docs/governance-exceptions.md

@@ -1,0 +1,13 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+tmp/
+*.cs
+*.nt8bk
+*.nt8k
+*.dll
+*.exe
+*.db
+*.sqlite

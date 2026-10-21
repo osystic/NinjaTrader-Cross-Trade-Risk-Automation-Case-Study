@@ -1,0 +1,18 @@
+name: Public showcase change
+description: Propose a governed update to this sanitized case study
+title: "[change] "
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What public-safe outcome should change?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence / approval
+      description: Reference approved evidence without pasting confidential material.
+    validations:
+      required: true
